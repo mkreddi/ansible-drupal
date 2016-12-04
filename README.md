@@ -19,7 +19,7 @@ Now complete the browser-based installation, at http://your_server_ip/drupal/.
 # Run Playbook
 
 o run:
-       cd ~/drupal/
-       ansible-playbook -i hosts site.yml
+       cd ~/ansible-drupal/
+       ansible-playbook -i host site.yml
         
 
