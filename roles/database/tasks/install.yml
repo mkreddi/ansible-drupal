@@ -1,0 +1,12 @@
+---
+- name: Install MySQL server
+  yum: name=mysql-server state=latest
+
+- name: Install Apache module for MySQL authentication
+  yum: name=libapache2-mod-auth-mysql state=latest
+
+- name: Install MySQL module for PHP
+  yum: name=php5-mysql state=latest
+  
+- name: Install Python MySQLdb
+  yum: name=python-mysqldb state=latest

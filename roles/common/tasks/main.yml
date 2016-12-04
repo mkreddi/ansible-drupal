@@ -1,0 +1,4 @@
+---
+
+ - name: Yum update the repository
+    yum: update_cache=yes

@@ -1,0 +1,16 @@
+---
+- hosts: Drupal
+  remote_user: username
+  sudo: yes
+
+  vars:
+    - db_name: drupal
+    - db_user: drupal_user
+    - db_password: drupal_pass
+
+  roles:
+    - common
+    - apache
+    - php
+    - database
+    - drupal

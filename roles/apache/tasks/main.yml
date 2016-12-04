@@ -1,0 +1,6 @@
+---
+
+- name: Install Apache Server
+      yum: name=httpd state=latest
+      notify:
+       - Start Apache
