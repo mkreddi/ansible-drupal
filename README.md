@@ -4,7 +4,8 @@ Installs Drupal, an open source content management platform, on Redhat/Centos.
 
 # Dependency
 . Ansible
-  Before you run the Playbook, your ~/.ssh/known_hosts file should have an entry for each of the hosts mentioned in the hosts file.
+
+Before you run the Playbook, your ~/.ssh/known_hosts file should have an entry for each of the hosts mentioned in the hosts file.
 
 # Inventory / host file 
  Define hosts / group of hosts to be affected in inventory / host file.
